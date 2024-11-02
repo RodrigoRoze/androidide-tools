@@ -29,4 +29,10 @@ chmod +x /data/data/com.itsaky.androidide/files/home/.androidide/35.0.0/aapt2
 
 cp -f /data/data/com.itsaky.androidide/files/home/.androidide/35.0.0/aapt2 /data/data/com.itsaky.androidide/files/home/.androidide/
 
+# Update the licenses
+
+cd /data/data/com.itsaky.androidide/files/home/android-sdk/cmdline-tools/latest/bin
+
+yes | ./sdkmanager --licenses
+
 rm -rf android-sdk-aarch64.zip
