@@ -17,9 +17,9 @@ cp -rf /data/data/com.itsaky.androidide/files/home/android-sdk-aarch64/android-s
 
 # Copy the aapt2 file and organize the folders
 
-mkdir -p /data/data/com.itsaky.androidide/files/home/.androidide/34.0.4/
+mkdir -p /data/data/com.itsaky.androidide/files/home/.androidide/DefaultAapt2/
 
-mv -f /data/data/com.itsaky.androidide/files/home/.androidide/aapt2 /data/data/com.itsaky.androidide/files/home/.androidide/34.0.4/
+mv -f /data/data/com.itsaky.androidide/files/home/.androidide/aapt2 /data/data/com.itsaky.androidide/files/home/.androidide/DefaultAapt2/
 
 mkdir -p /data/data/com.itsaky.androidide/files/home/.androidide/35.0.0/
 
