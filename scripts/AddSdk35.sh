@@ -33,6 +33,8 @@ cp -f /data/data/com.itsaky.androidide/files/home/.androidide/35.0.0/aapt2 /data
 
 cd /data/data/com.itsaky.androidide/files/home/android-sdk/cmdline-tools/latest/bin
 
+./sdkmanager --install
+./sdkmanager "platforms;android-30"
 yes | ./sdkmanager --licenses
 
 rm -rf android-sdk-aarch64.zip
