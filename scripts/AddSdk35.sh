@@ -38,3 +38,5 @@ cd /data/data/com.itsaky.androidide/files/home/android-sdk/cmdline-tools/latest/
 yes | ./sdkmanager --licenses
 
 rm -rf android-sdk-aarch64.zip
+
+echo -e "\e[32mSdk 35 installed successfully!\e[0m"
